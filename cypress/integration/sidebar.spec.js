@@ -37,7 +37,6 @@ context("Adoption page - landing page and sidebar", () => {
         it(`Going to ${sidebarElement.pageTitle} via sidebar link`, () => {
             sidebarElement.sidebarLink().click();
             cy.url().should("match", new RegExp(sidebarElement.targetPageObject.getPageRoute()));
-            cy.wait(2000)
         })
     })
 

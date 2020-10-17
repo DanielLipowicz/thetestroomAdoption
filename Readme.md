@@ -50,3 +50,7 @@ Example
 | First day of the next week |
 | First day of the next month |
 ```
+
+## Used tools
+- [cypress](www.cypress.io) - UI automation framework
+- [chanceJS](https://chancejs.com/) - data generator
