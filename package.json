@@ -4,7 +4,8 @@
   "description": "Automation demo project - cypress",
   "main": "index.js",
   "scripts": {
-    "cypress": "./node_modules/.bin/cypress open"
+    "cypress": "./node_modules/.bin/cypress open",
+    "cypress.run": "./node_modules/.bin/cypress run"
   },
   "repository": {
     "type": "git",

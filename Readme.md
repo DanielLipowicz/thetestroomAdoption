@@ -4,7 +4,9 @@
 Install all dependencies `npm install`
 
 ## Test run
-After all dependencies installation run `npm run cypress`
+After all dependencies installation:
+ - `npm run cypress` to open cypress console
+ - `npm run cypress.run` to run all cypress test in headless mode
 
 ## Test scenarios
 ``` Gherkin

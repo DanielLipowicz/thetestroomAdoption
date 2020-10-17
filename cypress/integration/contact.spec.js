@@ -29,5 +29,7 @@ describe("Contact us form", () => {
         contact.inputEmail(chance.email({domain: "test.test"}))
         contact.clickOnSendButton()
         cy.url().should('match', new RegExp(`${baseConfig.baseUrl}${contactConfirm.getPageRoute()}`))
+        contactConfirm.pageHeader().should("contain","We have your message")
+        contactConfirm.pageContent().should('contain', 'Many thanks for your message. We will contact you about your query as soon as possible.')
     })
 })

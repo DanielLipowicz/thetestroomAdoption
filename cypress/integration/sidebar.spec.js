@@ -1,5 +1,5 @@
 import sidebar from "../pageObject/sidebar";
-import adoption from "../pageObject/adoption";
+import adoption from "../pageObject/adoption/adoption";
 import contact from "../pageObject/contact";
 import landingPage from "../pageObject/landingPage";
 import config from "../fixtures/config";
