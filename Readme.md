@@ -9,6 +9,9 @@ After all dependencies installation:
  - `npm run cypress.run` to run all cypress test in headless mode
 
 ## Test scenarios
+Test cases was elaborated in `cypress/integration/TestCases` - there are more detailed TC - in some specific projects it could be required.
+### Generalized scenarios in gherkin (BDD):
+
 ``` Gherkin
 Scenario: Adoption page - landing page and sidebar
 Given I'm on adoption landing page
